@@ -1,0 +1,435 @@
+header{
+	background-color: #000000;
+	padding: 10px 0px;
+}
+.ver-fecha-tour{
+	position: relative;
+	top: 63px;
+	left: 10px;
+}
+/** Boton **/
+a.botton-yellow{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe94c+0,ffc03f+100 */
+background: #ffe94c; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffe94c 0%, #ffc03f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffe94c 0%,#ffc03f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffe94c 0%,#ffc03f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe94c', endColorstr='#ffc03f',GradientType=0 ); /* IE6-9 */
+color: #323437;
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 5px;
+}
+.datos-separa-cupo-header{
+	position: relative;
+	top: 10px;
+}
+.datos-separa-cupo-header, .datos-separa-cupo-header a{
+	color: #ffffff;
+}
+
+.datos-separa-cupo-header li{
+	list-style: none;
+	margin-bottom: 0px;
+}
+.datos-separa-cupo-header li p{
+	margin-left: 10px;
+	font-size: 18px;
+	letter-spacing: .5px;
+}
+.datos-separa-cupo-header li p strong{
+	font-size: 22px;
+}
+.datos-separa-cupo-header li img, .datos-separa-cupo-header li p{
+	display: inline-block;
+
+}
+.datos-separa-cupo-header li img {
+	position: relative;
+	top: 10px;
+}
+.banner-neuro-codificacion{
+	color: #ffffff;
+	background-image: url(../images/bg-1.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 352px;
+}
+.padding-top-bottom{
+	padding: 40px 0px 0px 0px;
+}
+.logo-codificacion{
+	position: relative;
+	z-index: 100;
+}
+.people{
+	position: relative;
+	right: 80px;
+	z-index: 0;
+}
+.call-to-action{
+	text-transform: uppercase;
+	background: #000000;
+	color: #ffffff;
+	padding: 20px 0px;
+	text-align: center;
+}
+.call-to-action p{
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.call-to-action p span{
+	color: #ffd900;
+}
+.video-form{
+	color: #ffffff;
+	text-align: center;
+	padding: 40px 0px;
+	background-image: url(../images/bg-2.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 352px;
+}
+.video-form h3{
+	font-weight: bold;
+	font-size: 26px;
+	text-shadow:0px 3px 5px #000000;
+	letter-spacing: .5px;
+}
+/*** Videos Responsives ***/
+
+.video-container {
+position: relative;
+padding-bottom: 56.25%; /* Para que el contenedor tenga relación de aspecto 16/9 */
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.center{
+	text-align: center;
+}
+.sector-tres{
+	margin-top: 100px;
+	color: #300034;
+	padding: 40px 0px;
+	background-image: url(../images/bg-3.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 352px;
+}
+.sector-tres p{
+	font-size: 16px;
+	position: relative;
+	top: -100px;
+}
+.sector-tres p a{
+	text-decoration: none;
+	color: #300034;
+}
+.sector-tres p a:hover{
+	text-decoration: underline;
+}
+.agenda{
+	text-align: center;
+}
+.agenda img{
+	position: relative;
+	top: -100px;
+}
+.sello{
+	position: relative;
+	text-align: center;
+	top: -83px;
+}
+.cerficiado{
+	padding-top: 130px;
+	margin-top: -180px;
+	background-image: url(../images/bg-5.png);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 250px;
+}
+.proximas-fechas{
+	color: #ffffff;
+	padding-top: 80px;
+	background-image: url(../images/bg-proximas-fechas.jpg);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 1200px;
+}
+.proximas-fechas h4{
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: .5px;
+
+}
+.proximas-fechas h4 span{
+	color: #ffdd00;
+}
+.proximas-fechas p{
+	font-size: 18px;
+	margin-bottom: 0px;
+	letter-spacing: .5px;
+}
+.proximas-fechas hr{
+	margin:20px 0px;
+	border-top: 1px solid rgba(255,255,255,.5);
+}
+.banderas{
+	margin-top: 20px;
+}
+.banderas a{
+	font-weight: bold;
+	font-size: 20px;
+}
+.banderas li{
+	list-style: none;
+}
+.banderas p{
+	margin-left: 10px;
+}
+.banderas p, .banderas img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.col2{
+	position: relative;
+	top: 10px;
+}
+.col2 a{
+	margin-left: 10px;
+}
+.col2 p{
+	font-size: 16px;
+}
+.right{
+	text-align: right;
+}
+.solicito-llamen{
+	margin-top: 20px;
+}
+.solicito-llamen a{
+	font-weight: bold;
+	font-size: 22px;
+}
+footer{
+	background: #000000;
+	color: #ffffff;
+	padding: 20px 0px;
+}
+footer p{
+	margin-bottom: 0px;
+}
+footer p img{
+	margin-left: 10px;
+}
+footer p, footer p img{
+	vertical-align: middle;
+}
+/*------------------------------------*\
+    $MEDIA-QUERIES
+\*------------------------------------*/
+	@media only screen and (max-width: 959px){
+
+	}
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (min-width: 959px)  and (max-width: 1140px){
+		.banner-neuro-codificacion{
+			min-height: 200px;
+		}
+		.ver-fecha-tour{
+			
+			
+		}
+		.col2 p, .col2 a{
+			font-size: 12px;
+		}
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.banner-neuro-codificacion{
+			min-height: 200px;
+		}
+		.ver-fecha-tour{
+			
+			
+		}
+		.col2 p, .col2 a{
+			font-size: 12px;
+		}
+		p.country{
+			font-size: 14px;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.banner-neuro-codificacion{
+			min-height: 200px;
+		}
+		.ver-fecha-tour{
+			
+			
+		}
+		.video-container, .formulario{
+			display: block;
+		}
+		p.country{
+			font-size: 14px;
+		}
+		
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		header{
+			text-align: center;
+		}
+		.ver-fecha-tour{
+			top: 10px;
+			left: 0;
+		}
+
+		.col2 p, .col2 a{
+			font-size: 12px;
+		}
+		.datos-separa-cupo-header{
+			top: 20px;
+		}
+		.datos-separa-cupo-header img{
+			width: 30px;
+		}
+		.datos-separa-cupo-header li p{
+			font-size: 18px;
+		}
+		.datos-separa-cupo-header li p strong{
+			font-size: 18px;
+		}
+		.people{
+			right: 0px;
+		}
+		.cerficiado{
+			min-height: 200px;
+		}
+		.formulario h3{
+			margin-top: 20px;
+		}
+		.proximas-fechas{
+			padding-top: 40px;
+		}
+		footer{
+			text-align: center;
+		}
+		.solicito-llamen a{
+			font-size: 18px;
+		}
+		p.country{
+			font-size: 14px;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		header{
+			text-align: center;
+		}
+		.ver-fecha-tour{
+			top: 10px;
+			left: 0;
+		}
+		.ver-fecha-tour{
+			
+			
+		}
+		.datos-separa-cupo-header{
+			top: 20px;
+		}
+		.datos-separa-cupo-header img{
+			width: 40px;
+		}
+		.people{
+			right: 0px;
+		}
+		.call-to-action{
+			text-align: center;
+		}
+		.col2 p, .col2 a{
+			font-size: 12px;
+		}
+		.col1 img{
+			position: relative;
+			top: 20px;
+		}
+		.col2{
+			top: 0px;
+		}
+		.col2 a{
+			margin-left: 0px;
+		}
+		.cerficiado{
+			min-height: 150px;
+		}
+		.formulario h3{
+			margin-top: 20px;
+		}
+		.proximas-fechas{
+			padding-top: 40px;
+		}
+		footer{
+			text-align: center;
+		}
+		footer p img{
+			margin-top: 20px;
+		}
+		.solicito-llamen a{
+			font-size: 18px;
+		}
+
+	}
