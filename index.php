@@ -26,7 +26,7 @@
     <div class="container">
       <div class="eight columns">
         <div class="video-container">
-          <iframe width="100%" height="355" src="https://www.youtube.com/embed/E2FViQeollU?showinfo=0" frameborder="0" allowfullscreen></iframe>
+          <iframe width="100%" height="355" src="https://www.youtube.com/embed/E2FViQeollU?showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
 
@@ -39,6 +39,7 @@
           <input type="email" name="email" value="CORREO ELECTRÓNICO">
           <input type="tel" name="telefono" value="CELULAR">
           <input type="text" name="ciudad" value="CIUDAD">
+          <label for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
           <input type="submit" value="Solicitar más información">
         </form>
       </div>
@@ -89,7 +90,7 @@
           <img src="images/banderas/colombia.png" alt=""><p class="country">Medellín, Colombia</p>
         </div>
         <div class="six columns right col2">
-          <p>15 de Marzo de 2016 <a class="botton-yellow" href="">Quiero asistir</a></p> 
+          <p>17 de Marzo de 2016 <a class="botton-yellow" href="">Quiero asistir</a></p> 
         </div>
       </div>
       <div class="ten columns offset-by-one"><hr></div>
@@ -206,7 +207,23 @@
 
     </div>
     <div class="container center solicito-llamen">
-      <a class="botton-yellow" href="#">Solicito que me llamen</a>
+      <a class="botton-yellow various" href="#inline">Solicito que me llamen</a>
+    </div>
+
+    <div id="inline" style="width:100%;display: none;">
+      <!-- Formulario -->
+      <div class="container formulario">
+        <h3>Déjanos Tus Datos</h3>
+        <form action="">
+          <input type="text" name="nombre" value="NOMBRE">
+          <input type="text" name="apellido" value="APELLIDO">
+          <input type="email" name="email" value="CORREO ELECTRÓNICO">
+          <input type="tel" name="telefono" value="CELULAR">
+          <input type="text" name="ciudad" value="CIUDAD">
+          <label for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
+          <input type="submit" value="Solicitar más información">
+        </form>
+      </div>
     </div>
   </div>
 <!-- End Document

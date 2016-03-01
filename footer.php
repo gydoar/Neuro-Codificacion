@@ -7,8 +7,10 @@
 	</div>
 </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-buttons.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
 
 <!-- Efecto Scroll -->
 
@@ -25,6 +27,24 @@
 		return false;
 	}
 </script>
+
+
+<script>
+	$(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>
+
 
 </body>
 </html>

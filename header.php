@@ -21,28 +21,28 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/jquery.fancybox-buttons.css">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-  
-
 </head>
 
 <body>
 
   <header>
-    <div class="container">
+    <div class="container ">
       <div class="three columns"><a href="#"><img width="262px" src="images/logo.png" alt=""></a></div>
 
-      <div class="three columns ver-fecha-tour"><a class="botton-yellow" href="#ver-fechas">VER FECHA DEL TOUR</a></div>
+      <div class="three columns ver-fecha-tour"><a class="botton-yellow" href="#ver-fechas">VER FECHAS DEL TOUR</a></div>
 
       <div class="four columns offset-by-two datos-separa-cupo-header">
         <li>
           <a href="#">
-            <img src="images/icon-whatsapp.png" alt=""><p>Separa tu cupo <br><strong>1 (786) 805-0449</strong></p>
+            <img src="images/icon-whatsapp.png" alt=""><p>Separa tu cupo <br><strong>+ 1 (786) 805-0449</strong></p>
           </a>
         </li>
       </div>
