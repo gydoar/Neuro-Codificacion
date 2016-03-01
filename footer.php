@@ -31,18 +31,18 @@
 
 <script>
 	$(document).ready(function() {
-	$(".various").fancybox({
-		maxWidth	: 500,
-		maxHeight	: 500,
-		fitToView	: false,
-		width		: '70%',
-		height		: '70%',
-		autoSize	: false,
-		closeClick	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none'
+		$(".various").fancybox({
+			maxWidth	: 500,
+			maxHeight	: 500,
+			fitToView	: false,
+			width		: '70%',
+			height		: '70%',
+			autoSize	: false,
+			closeClick	: false,
+			openEffect	: 'none',
+			closeEffect	: 'none'
+		});
 	});
-});
 </script>
 
 

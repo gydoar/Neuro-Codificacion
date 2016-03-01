@@ -446,5 +446,11 @@ footer p, footer p img{
 		.banner-neuro-codificacion{
 			margin-top: 220px;
 		}
+		#inline h4{
+			font-size: 20px;
+		}
+		#inline input[type="submit"]{
+			font-size: 12px;
+		}
 
 	}
