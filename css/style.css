@@ -1,6 +1,11 @@
 header{
 	background-color: #000000;
 	padding: 10px 0px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	z-index: 500;
 }
 .ver-fecha-tour{
 	position: relative;
@@ -49,6 +54,7 @@ border-radius: 5px;
 	top: 10px;
 }
 .banner-neuro-codificacion{
+	margin-top: 100px;
 	color: #ffffff;
 	background-image: url(../images/bg-1.jpg);
 	background-attachment: relative;
@@ -278,13 +284,12 @@ footer p, footer p img{
 /*------------------------------------*\
     $MEDIA-QUERIES
 \*------------------------------------*/
-	@media only screen and (max-width: 959px){
 
-	}
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (min-width: 959px)  and (max-width: 1140px){
 		.banner-neuro-codificacion{
 			min-height: 200px;
+
 		}
 		.ver-fecha-tour{
 			
@@ -316,6 +321,7 @@ footer p, footer p img{
 	@media only screen and (max-width: 767px) {
 		.banner-neuro-codificacion{
 			min-height: 200px;
+			margin-top: 250px;
 		}
 		.ver-fecha-tour{
 			
@@ -376,6 +382,9 @@ footer p, footer p img{
 		p.country{
 			font-size: 14px;
 		}
+		.banner-neuro-codificacion{
+			margin-top: 150px;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -433,6 +442,9 @@ footer p, footer p img{
 		}
 		.solicito-llamen a{
 			font-size: 18px;
+		}
+		.banner-neuro-codificacion{
+			margin-top: 220px;
 		}
 
 	}

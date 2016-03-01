@@ -32,8 +32,8 @@
 <script>
 	$(document).ready(function() {
 	$(".various").fancybox({
-		maxWidth	: 800,
-		maxHeight	: 600,
+		maxWidth	: 500,
+		maxHeight	: 500,
 		fitToView	: false,
 		width		: '70%',
 		height		: '70%',

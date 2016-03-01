@@ -34,11 +34,11 @@
       <div class="four columns formulario">
         <h3>Déjanos Tus Datos</h3>
         <form action="">
-          <input type="text" name="nombre" value="NOMBRE">
-          <input type="text" name="apellido" value="APELLIDO">
-          <input type="email" name="email" value="CORREO ELECTRÓNICO">
-          <input type="tel" name="telefono" value="CELULAR">
-          <input type="text" name="ciudad" value="CIUDAD">
+          <input type="text" name="nombre" placeholder="NOMBRE">
+          <input type="text" name="apellido" placeholder="APELLIDO">
+          <input type="email" name="email" placeholder="CORREO ELECTRÓNICO">
+          <input type="tel" name="telefono" placeholder="CELULAR">
+          <input type="text" name="ciudad" placeholder="CIUDAD">
           <label for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
           <input type="submit" value="Solicitar más información">
         </form>
@@ -213,14 +213,14 @@
     <div id="inline" style="width:100%;display: none;">
       <!-- Formulario -->
       <div class="container formulario">
-        <h3>Déjanos Tus Datos</h3>
+        <h4 class="center">Déjanos Tus Datos</h4>
         <form action="">
-          <input type="text" name="nombre" value="NOMBRE">
-          <input type="text" name="apellido" value="APELLIDO">
-          <input type="email" name="email" value="CORREO ELECTRÓNICO">
-          <input type="tel" name="telefono" value="CELULAR">
-          <input type="text" name="ciudad" value="CIUDAD">
-          <label for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
+          <input type="text" name="nombre" placeholder="NOMBRE">
+          <input type="text" name="apellido" placeholder="APELLIDO">
+          <input type="email" name="email" placeholder="CORREO ELECTRÓNICO">
+          <input type="tel" name="telefono" placeholder="CELULAR">
+          <input type="text" name="ciudad" placeholder="CIUDAD">
+          <label class="center" for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
           <input type="submit" value="Solicitar más información">
         </form>
       </div>
