@@ -52,11 +52,7 @@
     <div class="container">
       <div class="row">
         <div class="ten columns offset-by-one">
-          <p>Tu participación en este programa certificado tiene un alto valor curricular, serás acreditado con un título otorgado por BiiA Lab USA una de las instituciones más auténticas y vanguardistas de los Estados Unidos.</p>
-
-          <p>Al cursar y completar correctamente tu examen el cual deberás tomarlo en línea en <a href=""><strong>www.BiiALab.org</strong></a> en un tiempo máximo de 10 días.</p>
-
-          <p>Después de terminar el programa recibirás el mismo vía digital.</p>
+          <p>Tu participación en este programa certificado tiene un alto valor curricular, serás acreditado con un título otorgado por BiiA Lab USA una de las instituciones más auténticas y vanguardistas de los Estados Unidos; al cursar y completar correctamente tu examen el cual deberás tomarlo en línea en <a target="new" href="http://www.biialab.org/"><strong>www.BiiALab.org</strong></a> en un tiempo máximo de 10 días, después de terminar el programa recibirás el mismo vía digital.</p>
         </div>
 
         <div class="eight columns offset-by-two offset-by-one agenda">
@@ -156,7 +152,7 @@
           <img src="images/banderas/mexico.png" alt=""><p class="country">Cancún, México</p>
         </div>
         <div class="six columns right col2">
-          <p>12 de Mayo de 2016 <a class="botton-yellow" href="">Quiero asistir</a></p> 
+          <p>16 de Junio de 2016 <a class="botton-yellow" href="">Quiero asistir</a></p> 
         </div>
       </div>
       <div class="ten columns offset-by-one"><hr></div>
@@ -221,7 +217,7 @@
           <input type="tel" name="telefono" placeholder="CELULAR">
           <input type="text" name="ciudad" placeholder="CIUDAD">
           <label class="center" for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
-          <input type="submit" value="Solicitar más información">
+          <input type="submit" value="Eviar datos">
         </form>
       </div>
     </div>

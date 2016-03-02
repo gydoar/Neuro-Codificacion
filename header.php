@@ -41,7 +41,7 @@
 
       <div class="four columns offset-by-two datos-separa-cupo-header">
         <li>
-          <a href="#">
+          <a href="tel:+ 1 (786) 805-0449">
             <img src="images/icon-whatsapp.png" alt=""><p>Separa tu cupo <br><strong>+ 1 (786) 805-0449</strong></p>
           </a>
         </li>
