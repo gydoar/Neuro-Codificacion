@@ -11,6 +11,7 @@
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/jquery.fancybox-buttons.js"></script>
 <script src="js/jquery.fancybox-media.js"></script>
+<script src="js/funciones.js"></script>
 
 <!-- Efecto Scroll -->
 

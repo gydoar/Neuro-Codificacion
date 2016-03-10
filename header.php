@@ -1,3 +1,77 @@
+<?php 
+
+  //require("conexion.php");
+
+  if(isset($_POST['boton'])){
+        if($_POST['nombre'] == ''){
+            $errors[1] = '<span class="error">Ingrese su nombre</span>';
+        }else if($_POST['apellido'] == ''){
+            $errors[2] = '<span class="error">Ingrese su apellido</span>';
+        }else if($_POST['email'] == '' or !preg_match("/^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/",$_POST['email'])){
+            $errors[3] = '<span class="error">Ingrese un email correcto</span>';
+        }else if($_POST['telefono'] == ''){
+            $errors[4] = '<span class="error">Ingrese un teléfono</span>';
+        }else if($_POST['ciudad'] == ''){
+            $errors[5] = '<span class="error">Ingrese una ciudad</span>';
+        }else{
+            $dest = "handresvegarodriguez@gmail.com"; //Email de destino
+            $nombre = $_POST['nombre'];
+            $apellido = $_POST['apellido'];
+            $email = $_POST['email'];
+            $telefono = $_POST['telefono']; //Asunto
+            $ciudad = $_POST['ciudad'];
+            $cuerpo = "Nombre: $nombre <br/> Apellido: $apellido <br/> Email: $email <br/> Teléfono: $telefono <br/> Ciudad: $ciudad"; //Cuerpo del mensaje
+
+            //Cabeceras del correo
+            $headers = "From: $nombre <$email>\r\n"; //Quien envia?
+            $headers .= "X-Mailer: PHP5\n";
+            $headers .= 'MIME-Version: 1.0' . "\n";
+            $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //
+
+            //Cabeceras del correo
+            $headers2 = "From: Jurgen Klaric <handresvegarodriguez@gmail.com>\r\n"; //Quien envia?
+            $headers2 .= "X-Mailer: PHP5\n";
+            $headers2 .= 'MIME-Version: 1.0' . "\n";
+            $headers2 .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //
+ 
+            if(mail($dest,"Contacto landing Neuro Codificación",$cuerpo,$headers)){
+
+            /*
+              foreach($_POST AS $key => $value) { 
+                $_POST[$key] = mysql_real_escape_string($value); 
+              } 
+
+              $sql = "INSERT INTO `cf` (`nombre`,`email`,`asunto`,`mensaje`) VALUES ('{$_POST['nombre']}','{$_POST['email']}','{$_POST['asunto']}','{$_POST['mensaje']}')";
+                mysql_query($sql) or die(mysql_error());  
+
+            */
+                $result = '<div class="result_ok">Email enviado correctamente </div>';
+                // si el envio fue exitoso reseteamos lo que el usuario escribio:
+                $_POST['nombre'] = '';
+                $_POST['apellido'] = '';
+                $_POST['email'] = '';
+                $_POST['telefono'] = '';
+                $_POST['ciudad'] = '';
+
+
+                ob_start();
+
+                require 'email.php';
+
+                $template_1 = ob_get_contents();
+
+                ob_end_clean();
+
+
+              $envia = mail($email,"Su mensaje fue recibido!",$template_1,$headers2); 
+              
+            }else{
+                $result = '<div class="result_fail">Hubo un error al enviar el mensaje </div>';
+            }
+        }
+    }
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

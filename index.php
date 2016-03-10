@@ -33,14 +33,15 @@
       <!-- Formulario -->
       <div class="four columns formulario">
         <h3>Déjanos Tus Datos</h3>
-        <form action="">
-          <input type="text" name="nombre" placeholder="NOMBRE">
-          <input type="text" name="apellido" placeholder="APELLIDO">
-          <input type="email" name="email" placeholder="CORREO ELECTRÓNICO">
-          <input type="tel" name="telefono" placeholder="CELULAR">
-          <input type="text" name="ciudad" placeholder="CIUDAD">
+        <form method="POST" action="">
+          <div><input type="text" class="nombre" name="nombre" placeholder="NOMBRE" value="<?php if(isset($_POST['nombre'])){ echo $_POST['nombre']; } ?>"><?php if(isset($errors)){ echo $errors[1]; } ?></div>
+          <div><input type="text" class="apellido" name="apellido" placeholder="APELLIDO" value="<?php if(isset($_POST['apellido'])){ echo $_POST['apellido']; } ?>"><?php if(isset($errors)){ echo $errors[2]; } ?></div>
+          <div><input type="email" class="email" name="email" placeholder="CORREO ELECTRÓNICO" value="<?php if(isset($_POST['email'])){ echo $_POST['email']; } ?>"><?php if(isset($errors)){ echo $errors[3]; } ?></div>
+          <div><input type="tel" class="telefono" name="telefono" placeholder="CELULAR" value="<?php if(isset($_POST['telefono'])){ echo $_POST['telefono']; } ?>"><?php if(isset($errors)){ echo $errors[4]; } ?></div>
+          <div><input type="text" class="ciudad" name="ciudad" placeholder="CIUDAD" value="<?php if(isset($_POST['ciudad'])){ echo $_POST['ciudad']; } ?>"><?php if(isset($errors)){ echo $errors[5]; } ?></div>
+          <?php if(isset($result)) { echo $result; } ?>
           <label for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
-          <input type="submit" value="Solicitar más información">
+          <div><input type="submit" class="boton" name="boton" value="Solicitar más información"></div>
         </form>
       </div>
     </div>
