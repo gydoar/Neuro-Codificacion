@@ -211,14 +211,15 @@
       <!-- Formulario -->
       <div class="container formulario">
         <h4 class="center">Déjanos Tus Datos</h4>
-        <form action="">
-          <input type="text" name="nombre" placeholder="NOMBRE">
-          <input type="text" name="apellido" placeholder="APELLIDO">
-          <input type="email" name="email" placeholder="CORREO ELECTRÓNICO">
-          <input type="tel" name="telefono" placeholder="CELULAR">
-          <input type="text" name="ciudad" placeholder="CIUDAD">
+        <form method="POST" action="">
+          <div><input type="text" class="nombre1" name="nombre1" placeholder="NOMBRE" value="<?php if(isset($_POST['nombre1'])){ echo $_POST['nombre1']; } ?>"><?php if(isset($errorss)){ echo $errorss[6]; } ?></div>
+          <div><input type="text" class="apellido1" name="apellido1" placeholder="APELLIDO" value="<?php if(isset($_POST['apellido1'])){ echo $_POST['apellido1']; } ?>"><?php if(isset($errorss)){ echo $errorss[7]; } ?></div>
+          <div><input type="email" class="email1" name="email1" placeholder="CORREO ELECTRÓNICO" value="<?php if(isset($_POST['email1'])){ echo $_POST['email1']; } ?>"><?php if(isset($errorss)){ echo $errorss[8]; } ?></div>
+          <div><input type="tel" class="telefono1" name="telefono1" placeholder="CELULAR" value="<?php if(isset($_POST['telefono1'])){ echo $_POST['telefono1']; } ?>"><?php if(isset($errorss)){ echo $errorss[9]; } ?></div>
+          <div><input type="text" class="ciudad1" name="ciudad1" placeholder="CIUDAD" value="<?php if(isset($_POST['ciudad1'])){ echo $_POST['ciudad1']; } ?>"><?php if(isset($errorss)){ echo $errorss[10]; } ?></div>
+          <?php if(isset($result)) { echo $result; } ?>
           <label class="center" for=""><img width="12" src="images/icon-lock.png" alt=""> Confidencialidad. Nunca SPAM</label>
-          <input type="submit" value="Eviar datos">
+          <div><input type="submit" class="boton1" name="boton1" value="Enviar datos"></div>
         </form>
       </div>
     </div>

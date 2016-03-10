@@ -29,7 +29,6 @@
 	}
 </script>
 
-
 <script>
 	$(document).ready(function() {
 		$(".various").fancybox({
@@ -46,6 +45,13 @@
 	});
 </script>
 
+<script type="text/javascript">
+	$(document).ready(function() {
+	    setTimeout(function() {
+	        $("#result").fadeOut(1500);
+	    },3000);
+	});
+</script>
 
 </body>
 </html>
