@@ -1,6 +1,6 @@
 <?php 
 
-  //require("conexion.php");
+  require("conexion.php");
 
   if(isset($_POST['boton'])){
         if($_POST['nombre'] == ''){
@@ -14,7 +14,7 @@
         }else if($_POST['ciudad'] == ''){
             $errors[5] = '<span class="error">Ingrese una ciudad</span>';
         }else{
-            $dest = "handresvegarodriguez@gmail.com"; //Email de destino
+            $dest = "smjurgenklaric@gmail.com"; //Email de destino
             $nombre = $_POST['nombre'];
             $apellido = $_POST['apellido'];
             $email = $_POST['email'];
@@ -29,22 +29,22 @@
             $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //
 
             //Cabeceras del correo
-            $headers2 = "From: Jurgen Klaric <handresvegarodriguez@gmail.com>\r\n"; //Quien envia?
+            $headers2 = "From: Jurgen Klaric <smjurgenklaric@gmail.com>\r\n"; //Quien envia?
             $headers2 .= "X-Mailer: PHP5\n";
             $headers2 .= 'MIME-Version: 1.0' . "\n";
             $headers2 .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; //
  
             if(mail($dest,"Contacto landing Neuro Codificación",$cuerpo,$headers)){
 
-            /*
+            
               foreach($_POST AS $key => $value) { 
                 $_POST[$key] = mysql_real_escape_string($value); 
               } 
 
-              $sql = "INSERT INTO `cf` (`nombre`,`email`,`asunto`,`mensaje`) VALUES ('{$_POST['nombre']}','{$_POST['email']}','{$_POST['asunto']}','{$_POST['mensaje']}')";
+              $sql = "INSERT INTO `cf` (`nombre`,`apellido`,`email`,`telefono`,`ciudad`) VALUES ('{$_POST['nombre']}','{$_POST['apellido']}','{$_POST['email']}','{$_POST['telefono']}','{$_POST['ciudad']}')";
                 mysql_query($sql) or die(mysql_error());  
 
-            */
+            
                 $result = '<div class="result_ok">Email enviado correctamente </div>';
                 // si el envio fue exitoso reseteamos lo que el usuario escribio:
                 $_POST['nombre'] = '';
