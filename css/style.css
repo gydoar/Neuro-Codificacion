@@ -207,7 +207,7 @@ height: 100%;
 		-moz-background-size: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 1200px;
+	min-height: 1300px;
 }
 .proximas-fechas h4{
 	text-align: center;
@@ -300,6 +300,21 @@ footer p, footer p img{
 	font-weight: bold;
 	border-radius: 4px;
 	letter-spacing: .5px;
+}
+.fotos{
+	margin-top: -180px;
+	background-image: url(../images/bg-fotos.png);
+	background-attachment: relative;
+	background-position: center center;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+		-o-background-size: 100%;
+		-moz-background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 1000px;
+	z-index: 500;
 }
 /*------------------------------------*\
     $MEDIA-QUERIES

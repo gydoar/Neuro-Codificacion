@@ -5,5 +5,6 @@ CREATE TABLE `cf` (
   `email` varchar(255) NOT NULL,
   `telefono` varchar(255) NOT NULL,
   `ciudad` varchar(255) NOT NULL,
+  `pais` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

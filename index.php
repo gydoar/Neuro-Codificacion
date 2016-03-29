@@ -224,6 +224,10 @@
       </div>
     </div>
   </div>
+
+  <!-- Fotos background -->
+  <div class="fotos"></div>
+
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <?php include "footer.php"; ?>
